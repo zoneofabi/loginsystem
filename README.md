@@ -13,6 +13,8 @@ in the MySQL terminal. Then run it (shortcut key is F9).
 
 This will set up the tables needed to run the app. You are now ready to run the app. 
 
+You can access it by this URL: http://localhost/loginsystem/
+
 The app will let you create a new account, and then validate that account, and then login 
 with it. 
 
