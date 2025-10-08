@@ -1,3 +1,5 @@
+# loginsystem
+
 How to set up the application on a local environment:
 
 1) Please install Laragon to set up a portable development environment 
@@ -15,6 +17,9 @@ You can access it by this URL: http://localhost/loginsystem/
 
 The app will let you create a new account, and then validate that account, and then login 
 with it. 
+
+Once inside the login page, it will greet you by your name. And you also have a form which you can use to delete
+your account (you must enter your password before clicking the delete account button)
 
 
 How the application works on the back-end:
@@ -50,7 +55,9 @@ Notes:
 
 1) Given that this is a practice assignment, the php scripts are placed within the website's folder itself. 
    As per best practices, it is recommended to put the php scripts outside the www folder. However since 
-   that requires server configuration, for the sake of simplicity, the scripts are in the website's folder. 
+   that requires server configuration, for the sake of simplicity, the scripts are in the website's folder.
 
+2) The default installation of Laragon isn't configured out of the box to handle https, so if encountering navigation errors in the browser
+   please keep exclude "https" from the URLs while testing this app (i.e. "localhost/loginsystem/....." instead of "https://localhost/loginsystem/....")  
 
 
