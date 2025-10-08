@@ -11,6 +11,8 @@ in the MySQL terminal. Then run it (shortcut key is F9).
 
 This will set up the tables needed to run the app. You are now ready to run the app. 
 
+You can access it by this URL: http://localhost/loginsystem/
+
 The app will let you create a new account, and then validate that account, and then login 
 with it. 
 
@@ -49,5 +51,6 @@ Notes:
 1) Given that this is a practice assignment, the php scripts are placed within the website's folder itself. 
    As per best practices, it is recommended to put the php scripts outside the www folder. However since 
    that requires server configuration, for the sake of simplicity, the scripts are in the website's folder. 
+
 
 
