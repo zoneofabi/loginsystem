@@ -55,6 +55,9 @@ Notes:
 
 1) Given that this is a practice assignment, the php scripts are placed within the website's folder itself. 
    As per best practices, it is recommended to put the php scripts outside the www folder. However since 
-   that requires server configuration, for the sake of simplicity, the scripts are in the website's folder. 
+   that requires server configuration, for the sake of simplicity, the scripts are in the website's folder.
+
+2) The default installation of Laragon isn't configured out of the box to handle https, so if encountering navigation errors in the browser
+   please keep exclude "https" from the URLs while testing this app (i.e. "localhost/loginsystem/....." instead of "https://localhost/loginsystem/....")  
 
 
