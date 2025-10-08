@@ -18,6 +18,9 @@ You can access it by this URL: http://localhost/loginsystem/
 The app will let you create a new account, and then validate that account, and then login 
 with it. 
 
+Once inside the login page, it will greet you by your name. And you also have a form which you can use to delete
+your account (you must enter your password before clicking the delete account button)
+
 
 How the application works on the back-end:
 
